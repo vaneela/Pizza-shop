@@ -1,0 +1,63 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.3rem 1.1rem;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1rem;
+    flex: 1;
+    padding-left: 55px;
+}
+
+.logo>span{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.menu{
+    flex: 1;
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+    justify-content: center;
+    z-index: 99;
+}
+
+.menu>li:hover{
+    cursor: pointer;
+    color: var(--themeRed);
+}
+
+.cart{
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    gap: 1 rem;
+    padding-right: 4rem;
+}
+
+.bag{
+    margin-left: 1.2rem;
+    position: relative;
+    z-index: 99;
+    cursor: pointer;
+    display: flex;
+}
+
+.badge{
+    position:absolute;
+    display: flex;
+    background-color: var(--themeRed);
+    color:white;
+    border-radius: 50%;
+    width: 20px;
+    heigh: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: -0.5rem;
+}
